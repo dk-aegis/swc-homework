@@ -16,6 +16,7 @@ make
 ```bash
 git clone https://github.com/dk-aegis/swc-homework.git
 cd swc-homework
+make
 docker run -d -p 5000:5000 --privileged $(docker build -q .)
 ```
 도커빌드시 접속방법은 아래와 같습니다. 
